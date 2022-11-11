@@ -10,7 +10,7 @@ import com.google.firebase.ktx.Firebase
 
 class SplashActivity : AppCompatActivity() {
 
-    private val SPLASH_TIME_OUT: Long = 3000
+    private val SPLASH_TIME_OUT: Long = 2000
     private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
