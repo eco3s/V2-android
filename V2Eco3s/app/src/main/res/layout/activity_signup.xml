@@ -15,21 +15,15 @@
         android:layout_marginTop="60dp"
         android:src="@drawable/ic_tinylogo" />
 
-    <LinearLayout
+    <include
         android:id="@+id/bottomSheet"
+        layout="@layout/layout_bottom_sheet"
         android:layout_width="match_parent"
-        android:layout_height="600dp"
-        android:layout_marginTop="75dp"
-        android:orientation="vertical"
+        android:layout_height="match_parent"
         app:behavior_draggable="false"
-        app:behavior_hideable="false"
+        app:behavior_expandedOffset="200dp"
+        app:behavior_hideable="true"
         app:behavior_peekHeight="600dp"
-        app:layout_behavior="@string/bottom_sheet_behavior">
-
-        <include
-            android:id="@+id/layoutDialog"
-            layout="@layout/layout_bottom_sheet" />
-
-    </LinearLayout>
+        app:layout_behavior="@string/bottom_sheet_behavior" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
