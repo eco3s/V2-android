@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="홈"
+        android:icon="@drawable/rabbit"
+        android:iconTint="@color/black"
+        />
+    <item
+        android:id="@+id/menu_chat"
+        android:title="채팅"
+        android:icon="@drawable/place"
+        android:iconTint="@color/black"
+        />
+    <item
+        android:id="@+id/menu_comment"
+        android:title="댓글"
+        android:icon="@drawable/comment"
+        android:iconTint="@color/black"
+        />
+    <item
+        android:id="@+id/menu_profile"
+        android:title="프로필"
+        android:icon="@drawable/user"
+        android:iconTint="@color/black"
+        />
+</menu>

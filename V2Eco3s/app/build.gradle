@@ -7,6 +7,10 @@ android {
     namespace 'com.example.v2_eco3s'
     compileSdk 32
 
+    viewBinding {
+        enabled true
+    }
+
     defaultConfig {
         applicationId "com.example.v2_eco3s"
         minSdk 30
